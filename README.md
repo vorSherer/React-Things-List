@@ -1,4 +1,4 @@
-# Lab 38 - React ThibgList
+# Lab 38 - React ThingList
 
 ### *Authors:* 
     - *Thomas Sherer* and *Chuck Li Villalobos*, 2020-10-03
