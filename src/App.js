@@ -26,6 +26,7 @@ class App extends React.Component {
       <>
         <div className='App'>
           <Header tools={this.state.tools} />
+          <ToolList tools={this.state.tools} />
           <Footer />
         </div>
       </>
@@ -43,10 +44,28 @@ function Header(props) {
   )
 }
 
+function ToolList(props) {
+  return (
+    <>
+      <h3>List of Tools:</h3>
+      <ul>
+        {props.tools.map(tool => <Tool item={tool} key={tool.id} />)}
+      </ul>
+    </>
+  )
+}
+
+function Tool(props) {
+  return (
+    <li>Tool: {props.item.name} Tools class: {props.item.type}</li>
+  )
+}
+
 function Footer(props) {
   return (
     <h4>&#169; 2020, Chuck & Tom Creations</h4>
   )
 }
+
 
 export default App;

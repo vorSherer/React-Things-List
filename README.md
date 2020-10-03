@@ -1,3 +1,27 @@
+# Lab 38 - React ThingList
+
+### *Authors:* 
+    - *Thomas Sherer* and *Chuck Li Villalobos*, 2020-10-03
+
+---
+
+## Description
+### Feature Tasks and Requirements
+NN
+
+---
+
+## Collaborations and Attributions
+
+<!-- Huge Shoutouts to __Skyler Burger__, __Brai Frauen__ and __Merry Cimakasky__ for helping me dig out of the holes I dug myself into! -->
+
+<br>
+
+String.prototype.padStart code from [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart) <br>
+
+<br>
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
